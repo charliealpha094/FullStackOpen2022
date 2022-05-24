@@ -1,0 +1,18 @@
+(Done by Carlos Amaral (2022/05/24))
+
+
+browser->server: Note created by the user (POST) https://...new-note
+server-->browser: HTTP 302: URL redirect and reloads https://...notes
+browser->server: HTTP GET https://...notes
+server-->browser: HTML-code (reload page)
+browser->server: HTTP GET /main.css
+server-->browser: main.css
+browser->server: HTTP GET /main.js
+server-->browser: main.js
+
+Browser executes JS code that requests JSON data from server
+
+browser->server: HTTP GET https://.../data.json
+server-->browser: Json data
+
+New note is rendered, together with all other notes posted before

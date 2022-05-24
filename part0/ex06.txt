@@ -1,0 +1,7 @@
+(Done by Carlos Amaral (2022/05/24))
+
+browser->server: Note created by user input POST https://.../new_note_spa
+note left of server: Server doesn't ask for redirect.
+note left of server: Browser stays on same page.
+server-->browser: Server responds with Status Code 201
+note left of browser: Js event handler creates the new note, adds to list and renders to page
