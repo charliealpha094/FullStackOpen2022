@@ -9,3 +9,5 @@ Fundamentals of WebApps... Learning about DOM, Manipulating Documents from conso
 
 # Part1
 A brief introduction to React. Some practice on JavaScript (JSX)... State components and event handlers, stte hook, handling arrays, etc... A few interesting exercises...
+
+# Part2
